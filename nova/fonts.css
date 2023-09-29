@@ -1,0 +1,15 @@
+/* Fonts */
+@font-face {
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 500;
+    src: local("FiraCodeNerdFontMono-Regular"), url("./nova/FiraCodeNerdFontMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Rubik"), url("./nova/Rubik.woff2") format("woff2");
+}
+  

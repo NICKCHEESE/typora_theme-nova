@@ -1,0 +1,168 @@
+/* Inline Code */
+
+code {
+    background-color: var(--color-dark-gray);
+    border-radius: 7px;
+    border-color: var(--color-cyan);
+    box-shadow: 0 0 5px var(--color-cyan);
+    color: #fff;
+    line-height: 2;
+    white-space: break-spaces;
+    padding: 5px 7px 5px 7px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.0 em;
+    font-family: var(--monospace);
+}
+
+/* Codeblocks */
+.auto-suggest-container {
+    background: var(--color-darker-gray);
+    border: 1px solid var(--color-dark-cyan);
+    box-shadow: 0 0 3px var(--color-dark-cyan);
+}
+
+.dropdown-menu {
+    color: var(--color-dark-cyan);
+    margin-right: 5px;
+	
+}
+
+.CodeMirror pre {
+	font-family: var(--monospace) !important;
+}
+
+.md-fences {
+	font-family: var(--monospace);
+}
+
+.md-fences,
+.md-fences:active {
+	background-color: var(--color-darker-gray);
+	color: #b9bcba;
+	border-radius: 7px;
+	font-size: 1.125em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+.md-fences .code-tooltip {
+	display: block !important;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	background-color: var(--color-darker-gray);
+	border: 1px solid var(--color-dark-cyan);
+	border-radius: 3px;
+	box-shadow: 0 0 3px var(--color-dark-cyan);
+	margin-right: 13px !important;
+}
+
+.md-fences.md-focus .code-tooltip {
+	opacity: 1;
+	visibility: visible;
+	background-color: var(--color-darker-gray);
+	border: 1px solid var(--color-dark-cyan);
+	border-radius: 3px;
+	box-shadow: 0 0 3px var(--color-dark-cyan);
+}
+
+.cm-s-inner .CodeMirror-code pre {
+    padding-left: 15px;
+}
+
+.cm-s-inner.CodeMirror {
+	background-color: var(--color-darker-gray) !important;
+	border: 1px solid var(--color-cyan); 
+	border-radius: 7px;
+	box-shadow: 0 0 7px var(--color-dark-cyan);
+}
+
+.cm-s-inner .CodeMirror-gutters {
+	border: 0;
+	border-radius: 0;
+	box-shadow: 0 0 3px var(--color-dark-cyan);
+	color: #6d8a88;
+}
+
+.cm-s-inner .CodeMirror-linenumber {
+    color: #6d8a88;
+}
+
+.auto-suggest-container {
+    background: var(--color-darker-gray);
+    border: 1px solid var(--color-dark-cyan);
+    box-shadow: 0 0 3px var(--color-dark-cyan);
+}
+
+/* Selected Text */
+
+.CodeMirror-selected,
+.CodeMirror-selectedtext {
+	background: var(--color-darkerer-cyan) !important;
+    border-radius: 3px;
+}
+
+/* Cursor */
+.CodeMirror div.CodeMirror-cursor {
+	border-left: 2px solid var(--color-cyan);
+	z-index: 3;
+}
+
+
+.cm-s-inner .CodeMirror-activeline-background {background-color: #272727;}
+
+/* Basic Syntax */
+
+.cm-s-inner .cm-header {color: #FA2D7D;}
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+	color: #FFB854 !important;
+	font-style: italic !important;
+}
+.cm-s-inner .cm-default {color: #71D7D0;}
+.cm-s-inner .cm-negative {color: #F30E58;}
+.cm-s-inner .cm-positive {color: #02C802;}
+.cm-s-inner .cm-strong {color: #FFB854;font-weight: bold;}
+.cm-s-inner .cm-header .cm-strong {color: #FA2D7D;font-weight: bold;}
+.cm-s-inner .cm-em {color: #FF80BF;font-style: italic;}
+.cm-s-inner .cm-header .cm-em {color: #FA2D7D;font-style: italic;}
+.cm-s-inner .cm-tag {color: #71D7D0 !important;}
+.cm-s-inner .cm-attribute {color: #A6E22E;}
+.cm-s-inner .cm-link {color: #30A0F5;border-bottom: solid 1px #30A0F5;}
+.cm-s-inner .cm-builtin {color: #A6E22E;}
+.cm-s-inner .cm-keyword {color: #FA2D7D;}
+.cm-s-inner .cm-def {color: #F79900;}
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+	color: #AE81FF;
+}
+.cm-s-inner .cm-number {color: #C0C0C0;}
+.cm-s-inner .cm-property {color: #71D7D0;}
+.cm-s-inner .cm-qualifier {color: #A6E22E;}
+.cm-s-inner .cm-variable {color: #71D7D0;}
+.cm-s-inner .cm-variable-2 {color: #AE81FF;}
+.cm-s-inner .cm-variable-3 {color: #A6E22E;}
+.cm-s-inner .cm-string {color: #E9E07F;}
+.cm-s-inner .cm-punctuation {color: var(--color-dark-cyan);}
+.cm-s-inner .cm-operator {color: #FA2D7D;}
+.cm-s-inner .cm-meta {color: #FA2D7D;}
+.cm-s-inner .cm-bracket {color: var(--color-cyan);}
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+	color: var(--color-dark-cyan) !important;
+	font-style: italic;
+}
+.cm-s-inner .cm-error {color: #DD3700;}
+/* css syntax corrections */
+.cm-s-inner .cm-m-css.cm-variable {color: #71D7D0;}
+.cm-s-inner .cm-m-css.cm-property  {color: #71D7D0;}
+.cm-s-inner .cm-m-css.cm-atom  {color: #AE81FF;}
+.cm-s-inner .cm-m-css.cm-builtin {color: #A6E22E;}
+/* lua syntax corrections */
+.cm-s-inner .cm-m-lua.cm-variable {color: #71D7D0;}
+/* horizontal divider when language is markdown */
+.cm-s-inner .cm-hr {
+	color: #f8f8f2;
+}
+

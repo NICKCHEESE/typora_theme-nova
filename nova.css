@@ -1,0 +1,96 @@
+/*
+Theme Name: Nova
+Theme URI: https://github.com//nickcheese/nova-theme
+Authors: NICKCHEESE
+Author URI: https://github.com/nickcheese
+Description: A dark theme inspired from many other Typora themes. 
+            Meaning it was a lot of copy/paste and changing some values of something here, 
+            finding something neat there. And now you get the finest example of spaghetti code.
+            Good luck.
+Version: 0.1
+Tags: dark, cyan, colorful, typora
+*/
+
+@import "./nova/colors.css";
+@import "./nova/fonts.css";
+@import "./nova/checkbox_radio.css";
+@import "./nova/code.css";
+@import "./nova/export.css";
+@import "./nova/footer.css";
+@import "./nova/headers.css";
+@import "./nova/image.css";
+@import "./nova/lists.css";
+@import "./nova/megamenu.css";
+@import "./nova/mermaid.css";
+@import "./nova/misc.css";
+@import "./nova/preferencesmenu.css";
+@import "./nova/search.css";
+@import "./nova/sidebar.css";
+@import "./nova/sourceview.css";
+@import "./nova/tables.css";
+@import "./nova/toc.css";
+
+
+:root {
+    --text-color: var(--color-white);
+    --bg-color: var(--color-dark-gray);
+    --side-bar-bg-color: var(--color-darker-gray);
+    --control-text-color: var(--color-white); /* root folder */
+    --primary-color: var(--color-dark-cyan);
+    --primary-btn-border-color: var(--color-cyan);
+    --active-file-text-color: var(--color-white) !important;
+    --active-file-border-color: var(--color-cyan);
+    --active-file-bg-color: var(--color-dark-gray);
+    --select-text-bg-color: var(--color-darkerer-cyan);
+    --primary-btn-text-color: var(--color-cyan);
+    --window-border: 0 solid var(--color-cyan);
+    --item-hover-bg-color: var(--color-darker-gray);
+    --item-hover-text-color: var(--color-pink);
+    --meta-content-color: var(--color-dark-cyan);
+    --blur-text-color: rgba(200, 200, 200, 0.33);
+    --rawblock-edit-panel-bd: var(--color-darker-gray) !important;
+    --sans-serif: "Rubik", sans-serif !important;
+    --monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
+
+header,
+.context-menu,
+.megamenu-content,
+footer {
+    font-family: var(--sans-serif);
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    height: 100%;
+    line-height: 1.6;
+}
+
+#write pre,
+#write p {
+    width: auto;
+}
+
+#write {
+    background: var(--color-dark-gray);
+    
+    margin: 0 auto;
+    max-width: 1337px;
+    padding: 30px;
+    padding-bottom: 100px;
+    position: static;
+    width: 90%;
+    text-align: justify;
+}
+
+p {
+    color: var(--color-white);
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin: 0 0 1.25rem;
+}
+

@@ -1,0 +1,116 @@
+/* Preferences menu (I think) */
+
+.list-group-content {
+    margin-left: 10px !important;
+}
+
+/* Sidebar button in setting menu */
+.nav-group-item {
+    color: var(--color-white) !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+/* sidebar button hover in setting menu */
+.nav-group-item:hover,
+.nav-group-item:active,
+.nav-group-item.active {
+    background-color: var(--color-dark-gray) !important;
+    color: var(--color-white) !important;
+}
+
+/* the indent example in setting.editor */
+div.pane>div:nth-child(4)>div:nth-child(2) .label-input-group td:last-child div {
+    border: 1px solid var(--color-dark-cyan) !important;
+    border-radius: 6px;
+    background-color: var(--color-darker-gray);
+    margin: 10px !important;
+}
+
+/* button in setting menu */
+.ty-preferences button.btn-default {
+    border: 1px solid var(--color-dark-cyan);
+    background-color: var(--color-dark-gray);
+    border-radius: 6px;
+}
+
+/* button hover in setting menu */
+.ty-preferences .btn-default:not([disabled]):hover {
+    /* background-color: white !important; */
+    border-color: var(--color-pink) !important;
+    background-color: var(--color-darker-gray) !important;
+}
+
+/* return button in setting menu */
+.window-header button:hover {
+    color: var(--color-white) !important;
+}
+
+
+
+/* select item (mostly in setting menu) */
+select {
+    border: 1px solid #16e3db;
+    border-radius: 6px;
+    background-color: #1f1f1f !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+/* enabled select item hover */
+select:not([disabled]):hover {
+    color: var(--color-white);
+    opacity: 1;
+}
+
+/* disabled select item hover */
+select[disabled]:hover {
+    opacity: 0.5;
+}
+
+
+#recent-file-panel-action-btn {
+    background-color: var(--color-dark-gray);
+}
+
+.ty-preferences .window-content {
+    background-color: var(--color-dark-gray);
+}
+
+.ty-preferences .nav-group-item.active {
+    background: var(--color-dark-gray);
+    color: var(--color-white);
+}
+
+
+.ty-preferences .export-detail {
+    background-color: var(--color-darker-gray);
+}
+
+.ty-preferences .export-item.active {
+    background-color: var(--color-darker-gray);
+    color: var(--color-dark-cyan);
+    font-style: bold;
+}
+
+.ty-preferences .export-items-list-control {
+    background-color: var(--color-darker-gray);
+}
+
+.ty-preferences .icon-button.icon.icon-plus::before,
+.ty-preferences .icon-button.icon.icon-minus::before,
+.ty-preferences .icon-button.icon.icon-up::before,
+.ty-preferences .icon-button.icon.icon-down::before,
+.ty-preferences .icon-button.icon.icon-pencil::before {
+    color: var(--color-dark-cyan);
+}
+
+#recent-file-panel-action-btn {
+    background-color: var(--color-darker-gray);
+    border: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

@@ -1,0 +1,74 @@
+/* Megamenu */ 
+
+.megamenu-content,
+.megamenu-opened header {
+    background: var(--color-dark-gray);
+}
+
+.megamenu-content {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.megamenu-menu-list {
+    background-color: var(--color-darker-gray) !important;
+}
+
+.megamenu-opened .megamenu-content {
+    visibility: visible;
+    opacity: 1;
+    animation: none;
+    background-color: inherit;
+}
+
+.megamenu-menu-panel .btn {
+    border: 1px solid var(--color-cyan)
+}
+
+.megamenu-opened header {
+    background-image: none;
+}
+
+.megamenu-menu-header {
+    border-bottom: 1px solid var(--color-darker-cyan);
+}
+
+.megamenu-menu-list li:not(.saved) a:not(.active):hover,
+.megamenu-menu-list li a.active {
+    background: var(--color-dark-gray) !important;
+}
+
+/* mega menu sidebar*/
+.megamenu-menu {
+    background-color: var(--color-darker-gray);
+}
+
+/* return button in mega menu */
+#megamenu-menu-sidebar .menu-style-btn {
+    border: 0px;
+}
+
+/* return button color in mega menu */
+.megamenu-menu-header #megamenu-menu-header-title,
+.megamenu-menu-header #megamenu-menu-header-title:before {
+    color: var(--color-dark-cyan);
+}
+
+.megamenu-menu-list li a:hover,
+.megamenu-menu-list li a.active {
+    background-color: var(--color-dark-gray);
+}
+
+/* long button in mega menu */
+.long-btn {
+    border: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.long-btn:hover {
+    background-color: #1f1f1f;
+}

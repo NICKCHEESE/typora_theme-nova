@@ -1,0 +1,567 @@
+/* Mermaid */
+
+:root {
+    --mermaid-theme: dark;
+    --border-mermaid: 15px 15px; 
+    --mermaid-font-family: var(--sans-serif);
+    --mermaid-sequence-numbers: on;
+    --mermaid-flowchart-curve: basis;
+    --mermaid--gnatt-left-padding: 100;
+}
+
+.md-diagram-panel,
+.md-diagram-preview {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 0 0 0;
+    background-color: #333333;
+    border: 1px solid #00ffff;
+    border-radius: 7px;
+    box-shadow: 0 0 7px #16e3db;
+   /*  fill: #1f1f1f;
+    stroke:#00ffff; */
+}
+
+.label {
+    color: var(--color-dark-white) !important;
+    font-weight: 600;
+}
+
+
+
+
+
+/* Mermaid Flowchart */
+
+/* Shapes */
+.node circle .inner {
+    fill: var(--color-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon,
+.node path,
+.node label{
+    fill: var(--color-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+    stroke-width: 3px !important;
+}
+
+.edgePath .path {
+    stroke: var(--color-dark-pink) !important;
+    stroke-width: 2px !important;
+}
+
+.edgeLabel,
+.edgeLabel rect {
+    fill: var(--color-dark-cyan) !important;
+    background-color: var(--color-dark-gray)  !important;
+    color: var(--color-orange) !important;
+}
+
+.cluster rect {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+} 
+
+/* Mermaid Sequence */
+
+text.actor {
+    fill: var(--color-darker-gray) !important;
+}
+
+.messageLine0,
+.messageLine1 {
+  stroke: var(--color-darker-cyan) !important;
+}
+
+rect[class*="activation"] {
+  fill: var(--color-darker-gray) !important;
+}
+
+.actor-line {
+  stroke-width: 2px !important;
+  stroke: var(--color-dark-cyan) !important;
+}
+
+.labelBox {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.loopText {
+  fill: var(--color-orange) !important;
+}
+
+.loopLine {
+  stroke: var(--color-dark-pink) !important;
+}
+
+.note {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.noteText {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.sequenceNumber {
+    stroke: var(--color-black) !important;
+    fill: var(--color-darker-gray) !important;
+}
+
+/* Mermaid Class */
+
+g.classGroup text {
+    stroke: var(--color-black) !important;
+    fill: var(--color-darker-gray) !important;
+}
+
+g.classGroup rect {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+g.classGroup line {
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.classLabel .label {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.relation {
+    stroke: var(--color-orange) !important;
+}
+
+#compositionStart,
+#compositionEnd,
+#aggregationStart,
+#aggregationEnd,
+#dependencyStart,
+#dependencyStart,
+#extensionStart,
+#extensionEnd {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.cardinality text {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+} 
+
+
+/* Mermaid State v1 */
+
+.stateGroup rect,
+.stateGroup line {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.stateGroup text {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.stateGroup circle {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.stateGroup .composit {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.stateGroup .alt-composit {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.state-note rect {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.state-note text {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.stateLabel text {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+#dependencyEnd {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+/* Mermaid State v2 */
+
+.state-start {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.state-end {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.divider {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.fork-join {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.title-state {
+    fill: var(--color-darker-gray) !important;
+}
+
+.statediagram-cluster .outer {
+    fill: var(--color-darker-gray) !important;
+}
+
+.statediagram-cluster .inner {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.statediagram-cluster-alt .inner {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.transition {
+    stroke: var(--color-darker-cyan) !important;
+}
+
+#statediagram-barbEnd {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+/* Mermaid Journey */
+
+.journey-section {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.journey-section div {
+    color: var(--color-orange) !important;
+}
+
+.task {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+    stroke-width: 2px !important;
+}
+
+.task div {
+    color: var(--color-orange) !important;
+}
+
+#arrowhead {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+    stroke-width: 1px !important;
+}
+
+pre[mermaid-type="journey"] line {
+    stroke: var(--color-darker-cyan) !important;
+    stroke-width: 2px !important;
+}
+
+pre[mermaid-type="journey"] text {
+    fill: var(--color-orange) !important;
+}
+
+pre[mermaid-type="journey"] g path,
+pre[mermaid-type="journey"] g line {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.task-line {
+    stroke: var(--color-darker-cyan) !important;
+}
+
+
+/* Mermaid erDiagram */
+
+pre[mermaid-type="erDiagram"] rect {
+    fill: var(--color-gray) !important;
+}
+
+pre[mermaid-type="erDiagram"] text {
+    fill: var(--color-orange) !important;
+}
+
+pre[mermaid-type="erDiagram"] path {
+    stroke: var(--color-darker-cyan) !important;
+}
+
+#ZERO_OR_ONE_START circle,
+#ZERO_OR_ONE_END circle,
+#ZERO_OR_MORE_START circle,
+#ZERO_OR_MORE_END circle {
+    fill: var(--color-orange) !important;
+}
+
+/* Mermaid Gantt */
+.titleText {
+    fill: var(--color-orange) !important;
+}
+
+.section0,
+.section2 {
+  fill: var(--color-dark-purple) !important;
+}
+
+.section1,
+.section3 {
+  fill: var(--color-darkerer-cyan) !important;
+}
+
+.task0,
+.task1,
+.task2,
+.task3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.taskText0,
+.taskText1,
+.taskText2,
+.taskText3 {
+  fill: var(--color-orange) !important;
+}
+
+.active0,
+.active1,
+.active2,
+.active3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.activeText0,
+.activeText1,
+.activeText2,
+.activeText3 {
+    fill: var(--color-orange) !important;
+}
+
+.done0,
+.done1,
+.done2,
+.done3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.crit0,
+.crit1,
+.crit2,
+.crit3 {
+  fill: var(--color-darker-gray) !important;
+  stroke: var(--color-darker-cyan) !important;
+}
+
+.activeCrit0,
+.activeCrit1,
+.activeCrit2,
+.activeCrit3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.doneCrit0,
+.doneCrit1,
+.doneCrit2,
+.doneCrit3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.taskTextOutside0,
+.taskTextOutside2,
+.taskTextOutside1,
+.taskTextOutside3 {
+    fill: var(--color-orange) !important;
+}
+
+.grid text {
+  fill: var(--color-orange) !important;
+}
+
+.today {
+  stroke: var(--color-dark-pink) !important;
+}.titleText {
+  fill: var(--color-orange) !important;
+}
+
+.section0,
+.section2 {
+  fill: var(--color-darkerer-cyan) !important;
+}
+
+.section1,
+.section3 {
+  fill: var(--color-muted-purple) !important;
+}
+
+.task0,
+.task1,
+.task2,
+.task3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.taskText0,
+.taskText1,
+.taskText2,
+.taskText3 {
+  fill: var(--color-orange) !important;
+}
+
+.active0,
+.active1,
+.active2,
+.active3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.activeText0,
+.activeText1,
+.activeText2,
+.activeText3 {
+  fill: var(--color-orange) !important;
+}
+
+.done0,
+.done1,
+.done2,
+.done3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.crit0,
+.crit1,
+.crit2,
+.crit3 {
+  fill: var(--color-darker-gray)!important;
+  stroke: var(--color-orange) !important;
+}
+
+.activeCrit0,
+.activeCrit1,
+.activeCrit2,
+.activeCrit3 {
+    fill: var(--color-darker-gray)!important;
+    stroke: var(--color-orange) !important;
+}
+
+.doneCrit0,
+.doneCrit1,
+.doneCrit2,
+.doneCrit3 {
+    fill: var(--color-darker-gray) !important;
+    stroke: var(--color-darker-cyan) !important;
+}
+
+.taskTextOutside0,
+.taskTextOutside2,
+.taskTextOutside1,
+.taskTextOutside3 {
+  fill: var(--color-darker-cyan) !important;
+}
+
+.grid text {
+  fill: var(--color-orange) !important;
+}
+
+.today {
+  stroke: var(--color-purple) !important;
+}
+
+/* Mermaid Pie */
+
+g.legend>text {
+    fill: var(--color-orange) !important;
+}
+
+g.legend>rect {
+  stroke: var(--color-darker-gray) !important;
+}
+
+/* g>path {
+  stroke: var(--color-darker-gray) !important;
+} */
+
+g>text.slice {
+  fill: var(--color-dark-cyan) !important;
+}
+
+/* Mermaid Flow Diagram */
+
+.md-fences[lang="flow"] .md-diagram-panel-preview rect {
+    fill: var(--color-gray) !important;
+    stroke: var(--color-darkerer-cyan) !important;
+    stroke-width: 1.2 !important;
+}
+
+.md-fences[lang="flow"] .md-diagram-panel-preview path {
+    stroke: var(--color-darkerer-cyan) !important;
+    stroke-width: 1.2 !important;
+}
+
+.md-fences[lang="flow"] #cond {
+    fill: var(--color-gray) !important;
+}
+
+
+/* Mermaid Sequence Diagram */
+
+.md-fences[lang="sequence"] .md-diagram-panel-preview rect:not([fill="none"]) {
+    fill: var(--color-gray) !important;
+    stroke: var(--color-darkerer-cyan) !important;
+  stroke-width: 1.2 !important;
+}
+
+.md-fences[lang="sequence"] .md-diagram-panel-preview path {
+    fill: var(--color-gray) !important;
+    stroke: var(--color-darkerer-cyan) !important;
+  stroke-width: 1.2 !important;
+}
+
+.md-fences[lang="sequence"] text,
+.md-fences[lang="flow"] text {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+/* Remove border when editing graph */
+
+.md-diagram-panel {
+    border: none !important;
+  }

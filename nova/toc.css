@@ -1,0 +1,54 @@
+/* Table of contents */
+
+.md-toc {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.md-toc-content {
+    background-color: var(--color-darker-gray) !important;
+    border: 1px solid var(--color-dark-cyan);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 7px var(--color-dark-cyan);
+    
+}
+
+/* Wrap long lines */
+.md-toc-inner {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    color: var(--color-white);
+}
+
+.md-toc-inner:hover {
+  text-decoration: underline;
+  color: var(--color-orange)
+}
+
+#write div.md-toc-tooltip {
+    background-color: var(--color-darker-gray) !important;
+    border: 1px solid var(--color-dark-cyan);
+    border-radius: 7px;
+    box-shadow: 0 0 7px var(--color-dark-cyan);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.4rem;
+    color: var(--color-orange);
+}
+
+.md-toc:focus .md-toc-content {
+    border: 1px solid var(--color-dark-cyan);
+    border-radius: 7px;
+    box-shadow: 0 0 7px var(--color-dark-cyan);
+}
+
+/* Trash can button */
+.md-delete-toc {
+    color: var(--color-dark-cyan);
+}
+
+.md-delete-toc:hover {
+    color: var(--color-dark-pink);
+}

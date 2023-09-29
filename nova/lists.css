@@ -1,0 +1,58 @@
+/* Lists */
+
+#write ol,
+#write ul {
+    padding-left: 2rem;
+    font-size: 1.15rem;
+     /* margin: .5rem 0; */
+}
+
+#write ol>li,
+#write ul>li {
+    color: var(--color-cyan);
+    font-weight: 700;
+}
+
+/* code blocks size inside lists */
+#write li .cm-s-inner {
+    font-size: 1.105rem !important;
+}
+
+#write ul>li ul>li {
+    list-style-type: circle;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--color-pink);
+}
+
+#write ul>li ul>li ul>li {
+    list-style-type: square;
+    font-size: 1em;
+    color: var(--color-orange);
+}
+
+#write ol>li>*,
+#write ul>li>* {
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+#write ol>li>*:not(ol):not(ul),
+#write ul>li>*:not(ol):not(ul) {
+    font-size: 1.15rem;
+}
+
+#write ul {
+    list-style-type: disc;
+}
+
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}

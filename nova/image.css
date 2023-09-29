@@ -1,0 +1,61 @@
+/* Images */
+
+/* .md-image>.md-meta {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    text-align: center;
+    color: inherit;
+    font-size: .9em;
+    padding: 4px 4px 4px 4px;
+} */
+
+.md-image>.md-meta {
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 7px #ffffff;
+    font-size: 1em;
+    color: var(--color-dark-white);
+}
+
+.md-image>img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 0 11px #ffffff;
+}
+
+#write p span[md-inline="image"]~span[md-inline="em"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 7px #ffffff;
+}
+
+
+/* .md-image>.md-meta:first-of-type:before {
+    padding-left: 4px;
+} */
+
+.md-image-pick-file-btn,
+.md-image-input-src-btn {
+    background-color: var(--color-dark-gray);
+    border: 1px var(--color-dark-cyan);
+}
+
+.md-image-btn.selected,
+.md-image-btn:hover,
+.md-image-pick-file-btn:hover,
+.md-image-input-src-btn:hover {
+    color: var(--color-dark-pink) !important;
+    background-color: var(--color-dark-gray) !important;
+}
+

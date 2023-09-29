@@ -1,0 +1,198 @@
+/* Sidebar */
+
+#typora-sidebar #ty-sidebar-footer {
+    background-color: var(--color-darker-gray) !important;
+    border-top: 0 solid var(--color-darkerer-cyan);
+    color: var(--color-cyan);
+    font-size: 14;
+}
+
+.sidebar-tab.active {
+    color: inherit;
+    font-weight: 700;
+}
+.sidebar-tabs {
+    border-bottom: 0;
+}
+.sidebar-tabs:hover {
+    color: var(--color-orange);
+}
+
+/* Bottom border on Win/Linux Sidebar */
+.info-panel-tab-border {
+    background-color: var(--color-darkerer-cyan) !important;
+}
+
+
+/* Mac specific. Don't know if this even works as I don't have one */
+.mac-seamless-mode #typora-sidebar {
+    background-color: inherit;
+    border-right: 0 solid var(--color-darkerer-cyan);
+    font-weight: 400;
+    font-family: var(--sans-serif);
+}
+
+.typora-node.pin-outline:not(.megamenu-opened):not(.typora-sourceview-on) #typora-sidebar {
+    background-color: var(--color-darker-gray);
+}
+
+/* Sidebar header (Files/Outline) */
+.info-panel-tab-title {
+    color: var(--color-white);
+
+}
+
+/* File Tab */
+.file-tree-node {
+    padding-top: 0px;
+}
+
+.file-node-title{
+    padding-top: 2px;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state {
+    visibility: visible;
+    background: inherit !important;
+}
+
+/* .file-library-file-node, */
+.file-library-file-node.active {
+    color: var(--color-orange);
+    font-weight: bold;
+}
+
+
+/* Paper symbol before file */
+.fa-file-text-o:before {
+    color: var(--color-orange) !important;
+}
+
+/* Folder icon */
+.file-node-icon,
+.file-node-open-state {
+    color: var(--color-darker-cyan);
+}
+
+.file-node-content {
+    padding-top: 4px;
+}
+
+/* Dim inactive folders */
+.file-library-node.file-tree-node.file-node-collapsed .file-node-icon,
+.file-library-node.file-tree-node.file-node-collapsed .file-node-open-state {
+    color: var(--color-darker-cyan);
+    opacity: .6;
+}
+
+.file-library-node.file-tree-node.file-node-collapsed .file-node-title {
+    color: var(--color-white);
+    opacity: .6;
+}
+
+/* Active folder full color */
+.file-library-node.file-tree-node.file-node-expanded .file-node-icon,
+.file-library-node.file-tree-node.file-node-expanded .file-node-open-state {
+    color: var(--color-darker-cyan);
+    opacity: 1;
+}
+
+.file-library-node.file-tree-node.file-node-expanded .file-node-title {
+    color: var(--color-white);
+    opacity: 1;
+}
+
+.file-library-node.file-tree-node.file-node-expanded .file-library-file-node.active .file-node-title {
+    color: var(--color-white);
+}
+
+/* Dim inactive folders inside of active folders */
+
+.file-library-node.file-tree-node.file-node-expanded .file-library-node.file-tree-node.file-node-collapsed .file-node-icon,
+.file-library-node.file-tree-node.file-node-expanded .file-library-node.file-tree-node.file-node-collapsed .file-node-open-state {
+    color: var(--color-darker-cyan);
+    opacity: .6;
+}
+
+
+.file-library-node.file-tree-node.file-node-expanded .file-library-node.file-tree-node.file-node-collapsed .file-node-title {
+    color: var(--color-white);
+    opacity: .6;
+}
+
+/* TO DO - Need to figure out how to handle empty folders. 
+They stay at full opacity
+Not smart enough to dim them, without dimming everything else a second time (as collateral damage)
+*/
+
+
+/* Closed Folder Caret */
+.file-node-content .fa-caret-right{
+    color: var(--color-orange);
+    opacity: .6;
+}
+/* Open Folder Caret */
+.file-node-content .fa-caret-down {
+    color: var(--color-orange);
+}
+
+/* Remove dashed border on filenames in the sidebar */
+.file-library-node:not(.file-node-root):focus>.file-node-content {
+    outline: 0 !important;
+}
+
+/* Outline Tab */
+
+#outline-content .outline-item {
+    border-radius: 0 9px 9px 0;
+    margin-left: 0;
+    margin-right: 0 !important;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 28px solid transparent;
+    padding-right: 9px;
+    /*border-right: 28px solid transparent;*/
+    transition: border-radius, width .15s cubic-bezier(0.4, 0, 0.2, 1), margin .15s cubic-bezier(0.4, 0, 0.2, 1), width .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#outline-content .outline-item:hover,
+.file-library-file-node:hover {
+    opacity: 1 !important;
+    border-radius: 0 9px 9px 0;
+    background-color: inherit;
+    color: var(--color-white);
+}
+
+#outline-content .outline-item-active {
+    border-radius: 0 9px 9px 0;
+    background-color: var(--color-dark-gray);
+    color: var(--color-orange);
+}
+
+#outline-content .outline-item:not(.outline-item-active),
+.file-library-file-node:not(.active) {
+    opacity: .6;
+}
+
+
+/* .file-library-node.file-tree-node.file-node-expanded .file-node-title .no-selection {
+    color: var(--color-test) !important;
+} */
+
+.sidebar-content-content {
+    font-size: 15px;
+}
+/* sidebar in setting */
+.sidebar {
+    background-color: var(--color-darker-gray) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--color-dark-gray) !important;
+    border-color: var(--color-cyan) !important;
+    border-radius: 3px;
+    box-shadow: 0 0 3px var(--color-darkerer-cyan);
+    
+}

@@ -1,0 +1,47 @@
+/* Source view */
+
+#typora-source {
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#typora-source .CodeMirror-lines {
+    max-width: 1200px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#typora-source .CodeMirror-activeline-background.CodeMirror-linebackground {
+    background-color: inherit;
+}
+
+.typora-sourceview-off #toggle-sourceview-btn,
+.typora-sourceview-on #toggle-sourceview-btn {
+    color: var(--color-dark-cyan);
+    background-color: var(--color-dark-gray);
+}
+
+.typora-sourceview-off #toggle-sourceview-btn:hover,
+.typora-sourceview-on #toggle-sourceview-btn:hover {
+    color: var(--color-pink);
+    background-color: var(--color-darker-gray)
+}
+
+.typora-sourceview-on #typora-source {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* inline codeblock in source mode */
+.cm-s-typora-default .cm-comment {
+    color: var(-color-dark-cyan);
+}
+
+
+.typora-sourceview-on #write {
+    visibility: hidden;
+    opacity: 0;
+}
+

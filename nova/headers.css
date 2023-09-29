@@ -1,0 +1,264 @@
+/* Header colors */
+
+:root {
+    --h1-bg-color: linear-gradient(315deg, var(--h1-color-back) 0%, var(--h1-color-front) 79%);
+    --h1-color: var(--h1-color-front);
+  
+    --h2-bg-color: linear-gradient(315deg, var(--h2-color-back) 0%, var(--h2-color-front) 79%);
+    --h2-color: var(--h2-color-front);
+
+    --h3-bg-color: linear-gradient(315deg, var(--h3-color-back) 0%, var(--h3-color-front) 79%);
+    --h3-color: var(--h3-color-front);
+  
+    --h4-bg-color: linear-gradient(315deg, var(--h4-color-back) 0%, var(--h4-color-front) 79%);
+    --h4-color: var(--h4-color-front);
+  
+    --h5-bg-color: linear-gradient(315deg, var(--h5-color-back) 0%, var(--h5-color-front) 79%);
+    --h5-color: var(--h5-color-front);
+  
+    --h6-bg-color: linear-gradient(315deg, var(--h6-color-back) 0%, var(--h6-color-front) 79%);
+    --h6-color: var(--h6-color-front);
+}
+
+
+/* Headers */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--sans-serif);
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+/* Header styles */
+
+h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    padding: 0 0;
+    text-align: left;
+    margin-top: 4rem;
+    color: var(--h1-bg-color);
+    background: var(--h1-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 3rem;
+    padding: 0 0;
+    text-align: left;
+    margin-top: 3rem;
+    color: var(--h2-bg-color);
+    background: var(--h2-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding: 0 0;
+    text-align: left;
+    margin-top: 2.5rem;
+    color: var(--h3-bg-color);
+    background: var(--h3-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    padding: 0 0;
+    text-align: left;
+    margin-top: 2rem;
+    color: var(--h4-bg-color);
+    background: var(--h4-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0 0;
+    text-align: left;
+    margin-top: 1.5rem;
+    color: var(--h5-bg-color);
+    background: var(--h5-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0 0;
+    text-align: left;
+    margin-top: 1.75rem;
+    color: var(--h6-bg-color);
+    background: var(--h6-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* 
+.h1,
+h1 {
+    font-size: 3.5rem;
+}
+
+.h2,
+h2 {
+    font-size: 2.75rem;
+}
+
+.h3,
+h3 {
+    font-size: 2.25rem;
+}
+
+.h4,
+h4 {
+    font-size: 1.75rem;
+}
+
+.h5,
+h5 {
+    font-size: 1.5rem;
+}
+
+.h6,
+h6 {
+    font-size: 1.25rem;
+} */
+
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+
+/* h1 tt,
+h1 code,
+h2 tt,
+h2 code,
+h3 tt,
+h3 code,
+h4 tt,
+h4 code,
+h5 tt,
+h5 code,
+h6 tt,
+h6 code {
+    font-size: inherit;
+} */
+
+/* Header logo */
+
+#write h1:before,
+#write h2:before,
+#write h3:before,
+#write h4:before,
+#write h5:before,
+#write h6:before {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: var(--color-bright-purple);
+    text-shadow: 0 0 3px var(--color-muted-purple);
+    color: var(--color-bright-purple);
+    float: none;
+    font-size: 1rem;
+    font-variant: small-caps;
+    font-weight: 700;
+    left: auto;
+    border: none !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    padding: 0;
+    position: absolute;
+    right: calc(100% + 10px);
+}
+/* #write h1 {
+    font-size: 3.5rem;
+} */
+#write h1:before {
+    content: "H1";
+}
+/* #write h2 {
+    font-size: 2.75rem;
+} */
+#write h2:before {
+    content: "H2";
+}
+/* #write h3 {
+    font-size: 2.25rem;
+} */
+#write h3:before {
+    content: "H3";
+}
+/* #write h4 {
+    font-size: 1.75rem;
+} */
+#write h4:before {
+    content: "H4";
+}
+/* #write h5 {
+    font-size: 1.5rem;
+} */
+#write h5:before {
+    content: "H5"; 
+}
+/* #write h6 {
+    font-size: 1.25rem;
+} */
+#write h6:before {
+    content: "H6";
+}
+
+#write h1,
+#write h2,
+#write h3,
+#write h4,
+#write h5,
+#write h6 {
+    width: auto;
+}
+
+/* Spacing below header */
+
+#write>h1:first-child {
+    margin-top: 2.75rem;
+}
+
+#write>h2:first-child {
+    margin-top: 1.75rem;
+}
+
+#write>h3:first-child {
+    margin-top: 1rem;
+}
+
+#write>h4:first-child {
+    margin-top: .5rem;
+}

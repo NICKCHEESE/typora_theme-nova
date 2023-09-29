@@ -1,0 +1,93 @@
+/* Footers */
+
+/* Sidebar footer*/ 
+.sidebar-footer-item:hover {
+    background-color: var(--color-dark-gray);
+    color: var(--color-pink);
+} 
+
+/* Footer buttons */
+
+footer.ty-footer {
+    /* border-top: 1px !important;
+    background-color: var(--bg-color2) !important; */
+    border-color: var(--color-dark-gray);
+    opacity: 1;
+  }
+
+.footer-btn:hover {
+    background-color: var(--color-dark-gray);
+    color: var(--color-pink);
+}
+
+.footer-item,
+#footer-word-count {
+    color: var(--color-dark-cyan);
+    background-color: var(--color-dark-gray);
+}
+
+.footer-item:hover,
+#footer-word-count:hover {
+    color: var(--color-pink);
+    background-color: var(--color-darker-gray);
+
+}
+
+.ty-show-word-count #footer-word-count-info {
+    visibility: visible;
+    background-color: var(--color-darker-gray);
+    color: var(--color-muted-cyan);
+    border: 1px solid var(--color-muted-cyan);
+    border-radius: 7px;
+    box-shadow: 0 0 5px var(--color-muted-cyan);
+    opacity: 1;
+    Transition: 0.5s;
+}
+
+#footer-word-count-info {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+
+/* Wordcount popup box stats color */
+ 
+#footer-word-count-info li {
+    list-style-type: none !important;
+    text-align: center;
+    font-weight: 500;
+    color: var(--color-dark-cyan);
+}
+
+/* li.ty-footer-word-count-all {
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+/* Wordcount box title */ 
+.footer-word-count-no-selection {
+    list-style-type: none !important;
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 18px;
+    color: var(--color-orange);
+}
+
+/* Outline button */
+#outline-btn {
+    color: var(--color-dark-cyan);
+}
+
+#outline-btn:hover {
+    color: var(--color-pink);
+    background-color: var(--color-darker-gray);
+}
+
+
+footer,
+.ty-footer {
+    background-color: var(--color-dark-gray) !important;
+    visibility: visible !important;
+}

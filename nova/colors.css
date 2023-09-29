@@ -1,0 +1,45 @@
+/* Colors */
+
+:root {
+    --color-white: #ffffff;
+    --color-dark-white: #a9aaab;
+    --color-gray: #434343; 
+    --color-dark-gray: #333333;
+    --color-darke-gray: #272727;
+    --color-darker-gray: #1f1f1f;
+    --color-darkere-gray: #131313;
+    --color-cyan: #00ffff;
+    --color-dark-cyan: #16e3db;
+    --color-darker-cyan: #27c3ca;
+    --color-darkerer-cyan: #0a8c89;
+    --color-muted-cyan: #7be5fd;
+    --color-pink: #ed2bed;
+    --color-muted-pink: #D94F8A;
+    --color-dark-pink: #dd0dff;
+    --color-orange: #f0b752;
+    --color-purple: #a943fc;
+    --color-red: #db1a44;
+    --color-bright-purple: #dd29ee;
+    --color-dark-purple: #7728ab;
+    --color-muted-purple: #bd93f9;
+    --color-blue: #2d83c5;
+    --color-black: #000000;
+    --color-keyboard-text: #24292f;
+    --color-keyboard-background:  #f6f8fadc;
+    --color-keyboard-border: #1f202033;
+    --color-keyboard-shadow: #1f2020c0;
+    --h1-color-front: #ff9700;
+    --h1-color-back: #ff2d2d;
+    --h2-color-front: #0beeff;
+    --h2-color-back: #d90bed;
+    --h3-color-front: #e6f330;
+    --h3-color-back: #1EAE98;
+    --h4-color-front: #df208e;
+    --h4-color-back: #05D6D9;
+    --h5-color-front: #C6EA8D;
+    --h5-color-back: #FE90AF;
+    --h6-color-front: #C33764;
+    --h6-color-back: #92EFFD;
+    --color-test: #1eff00;
+}
+

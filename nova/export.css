@@ -1,0 +1,40 @@
+/* Export */
+
+.typora-export li {
+    font-size: 14px !important;
+    text-align: justify !important;
+}
+
+.typora-export li {
+    font-size: 1.25rem !important;
+    padding-bottom: 10px !important;
+}
+
+.typora-export {
+    --monospace: "Fira Code Mono Regular";
+}
+
+.typora-export pre.md-fences {
+    font-size: 1.25rem !important;
+}
+
+.typora-export code {
+    font-size: 1.2rem !important;
+}
+
+.typora-export strong {
+    font-weight: 700 !important;
+}
+
+.typora-export #write a {
+    color: #27c3ca;
+}
+
+.typora-export .footnote-line {
+    color: #ffffff;
+    font-size: 13px !important;
+}
+
+.typora-export .footnote-line a {
+    color: #27c3ca;
+}

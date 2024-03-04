@@ -24,14 +24,15 @@ footer.ty-footer {
 #footer-word-count {
     color: var(--color-dark-cyan);
     background-color: var(--color-dark-gray);
+    margin-right: 3px;
 }
 
 .footer-item:hover,
 #footer-word-count:hover {
     color: var(--color-pink);
     background-color: var(--color-darker-gray);
-
 }
+
 
 .ty-show-word-count #footer-word-count-info {
     visibility: visible;
@@ -41,7 +42,7 @@ footer.ty-footer {
     border-radius: 7px;
     box-shadow: 0 0 5px var(--color-muted-cyan);
     opacity: 1;
-    Transition: 0.5s;
+    transition: 0.5s;
 }
 
 #footer-word-count-info {

@@ -4,7 +4,7 @@ A spaghetti coded theme I put together for Typora
 
 There are probably (many) bugs. 
 
-Inspired by *many* other Typora themes (from people who actually know what they’re doing)
+Inspired (stolen bits) by *many* other Typora themes (from people who actually know what they’re doing)
 
 
 
@@ -18,3 +18,8 @@ Inspired by *many* other Typora themes (from people who actually know what they�
 
 ![4](https://github.com/NICKCHEESE/typora_theme-nova/blob/main/img/4.png)
 
+![5](https://github.com/NICKCHEESE/typora_theme-nova/blob/main/img/5.png)
+
+![6](https://github.com/NICKCHEESE/typora_theme-nova/blob/main/img/6.png)
+
+![7](https://github.com/NICKCHEESE/typora_theme-nova/blob/main/img/7.png)

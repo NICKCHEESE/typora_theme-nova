@@ -79,13 +79,13 @@ kbd {
 /* Bold */
 strong {
     background-color: inherit;
-    color: var(--color-orange);
+    color: var(--color-orange) !important;
 }
 
 /* Italic */
 em {
     background-color: inherit;
-    color: var(--color-bright-purple)
+    color: var(--color-bright-purple);
 }
 
 /* Underline */
@@ -114,6 +114,7 @@ mark {
     padding: 3px 7px 3px 7px;
     white-space: break-spaces;
 }
+
 
 #md-notification {
     background: var(--color-darker-gray);
@@ -270,8 +271,8 @@ blockquote {
 blockquote,
 blockquote p {
     line-height: 1.6;
-    font-weight: 500;
-    color: var(--color-bright-purple); 
+    font-weight: 600;
+    color: #D94F8A; 
 }
 
 blockquote .md-end-block.md-heading {

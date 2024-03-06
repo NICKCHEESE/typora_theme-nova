@@ -1,22 +1,22 @@
 /* Header colors */
 
 :root {
-    --h1-bg-color: linear-gradient(315deg, var(--h1-color-back) 0%, var(--h1-color-front) 79%);
+    --h1-bg-color: linear-gradient(333deg, var(--h1-color-back) 0%, var(--h1-color-front) 91%);
     --h1-color: var(--h1-color-front);
   
-    --h2-bg-color: linear-gradient(315deg, var(--h2-color-back) 0%, var(--h2-color-front) 79%);
+    --h2-bg-color: linear-gradient(333deg, var(--h2-color-back) 0%, var(--h2-color-front) 91%);
     --h2-color: var(--h2-color-front);
 
-    --h3-bg-color: linear-gradient(315deg, var(--h3-color-back) 0%, var(--h3-color-front) 79%);
+    --h3-bg-color: linear-gradient(333deg, var(--h3-color-back) 0%, var(--h3-color-front) 91%);
     --h3-color: var(--h3-color-front);
   
-    --h4-bg-color: linear-gradient(315deg, var(--h4-color-back) 0%, var(--h4-color-front) 79%);
+    --h4-bg-color: linear-gradient(333deg, var(--h4-color-back) 0%, var(--h4-color-front) 91%);
     --h4-color: var(--h4-color-front);
   
-    --h5-bg-color: linear-gradient(315deg, var(--h5-color-back) 0%, var(--h5-color-front) 79%);
+    --h5-bg-color: linear-gradient(333deg, var(--h5-color-back) 0%, var(--h5-color-front) 91%);
     --h5-color: var(--h5-color-front);
   
-    --h6-bg-color: linear-gradient(315deg, var(--h6-color-back) 0%, var(--h6-color-front) 79%);
+    --h6-bg-color: linear-gradient(333deg, var(--h6-color-back) 0%, var(--h6-color-front) 91%);
     --h6-color: var(--h6-color-front);
 }
 

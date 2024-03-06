@@ -28,18 +28,18 @@
     --color-keyboard-background:  #f6f8fadc;
     --color-keyboard-border: #1f202033;
     --color-keyboard-shadow: #1f2020c0;
-    --h1-color-front: #ff9700;
-    --h1-color-back: #ff2d2d;
-    --h2-color-front: #0beeff;
+    --h1-color-front: #ff9100;
+    --h1-color-back: #0c9ffa;
+    --h2-color-front: #0BEEFF;
     --h2-color-back: #d90bed;
-    --h3-color-front: #e6f330;
-    --h3-color-back: #1EAE98;
-    --h4-color-front: #df208e;
-    --h4-color-back: #05D6D9;
-    --h5-color-front: #C6EA8D;
+    --h3-color-front: #FF61D2;
+    --h3-color-back: #35DE8F;
+    --h4-color-front: #38EF7D;
+    --h4-color-back: #B0F5E0;
+    --h5-color-front: #A9F1DF;
     --h5-color-back: #FE90AF;
-    --h6-color-front: #C33764;
-    --h6-color-back: #92EFFD;
+    --h6-color-front: #FE9090;
+    --h6-color-back: #BFF098;
     --color-test: #1eff00;
 }
 
